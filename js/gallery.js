@@ -3,8 +3,7 @@ const pics = document.querySelectorAll("#gallery-thumbs .thumbs-img");
 // Retrieve the main picture
 const frame = document.getElementById("gallery-picture");
 
-
-// Foreach picture
+// For each picture ...
 pics.forEach(function(pic) {
 
     // Adding an event listener on the picture that fires when hovering
